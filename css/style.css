@@ -1,0 +1,189 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	padding: 0px;
+	margin: 0px;
+	
+}
+.now-playing{
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	padding: 20px;
+	background:#44ba87;
+	color: #fff;
+}
+h1,h2{
+/*	color: #fff;*/
+}
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	background:#44ba87;
+	color: #fff;
+	position: fixed;
+	width: 100%;
+
+}
+header li{
+	float: left;
+	padding: 10px;
+	list-style-type: none;
+	padding-top: 17px;
+	
+}
+a{
+	text-decoration: none;
+	}
+header li a{
+	font-weight: 600;
+	color: #fff;
+	padding: 1px 5px;
+}
+header li a:hover{
+color: #e6f9f1;	
+}
+
+.logo{
+	font-size: 24px;
+	padding-top: 10px;
+	font-weight: 300;
+}
+
+
+.logo a{
+font-weight: 300;
+}
+
+.nav{
+	float: left;
+	
+	/*background: #4bc591;*/
+}
+.nav div{
+	float: left;
+}
+.prev,.next{
+	padding: 20px;
+	color: #299667;
+	font-size: 20px;
+}
+.play-control{
+	font-size: 42px;
+	padding: 7px;
+}
+
+.seek-bar{
+	float: left;
+	width: 600px;
+		margin-top: 10px;
+	height: 15px;
+	background: #3ea478;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.seek-progress{
+	float: left;
+	width: 100px;
+	height: 15px;
+	border-radius: 20px;
+	background: #fff;
+}
+.time{
+	float: left;
+	width: 120px;
+	margin-top: 26px;	
+	margin-left: 20px;
+}
+.song-name{
+	float: left;
+
+	width: 100%;
+}
+
+.song-info{
+	float: left;
+	width: 600px;
+	padding-left: 20px;
+}
+.play-control{
+	min-width: 38px;
+}
+.jp-state-playing .play-control i:before {
+    content: "\f04c";
+}
+
+
+.bar{
+	float: left;
+	width: 200px;
+	margin-top: 10px;
+	height: 15px;
+	background: #3ea478;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.value{
+	float: left;
+	height: 15px;
+	border-radius: 20px;
+	background: #fff;
+}
+.volume{
+	float: left;
+	width: 230px;
+	margin-top: 20px;
+}
+.volume i{
+	float: left;
+	font-size: 34px;
+	margin-right: 5px;
+}
+.container{
+	padding: 25px;
+	padding-top: 45px;
+}
+.file-list ul li{
+	list-style-type: none;
+	padding:5px;
+}
+
+.file-list ul li:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.fa-folder{
+	color:#44ba87;
+}
+
+.button{
+	padding: 5px;
+	background: #44ba87;
+	color: #fff;
+	cursor: pointer;
+
+}
+
+.sub-nav{
+	margin-bottom: 10px;
+}
+
+.playlist-count{
+	float: right;
+	width: 40px;
+	font-size: 22px;
+}
+.playlist-count span.count{
+	border-bottom: 1px solid #fff;
+}
+
+.playlist-count span{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
